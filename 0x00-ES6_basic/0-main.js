@@ -1,13 +1,4 @@
-/*import taskBlock from './1-block-scoped.js';
+import { taskFirst, taskNext } from './0-constants.js';
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+console.log(`${taskFirst()} ${taskNext()}`);
 
-import getNeighborhoodsList from './2-arrow.js';
-
-const neighborhoodsList = new getNeighborhoodsList();
-const res = neighborhoodsList.addNeighborhood('Noe Valley');
-console.log(res);*/
-import concatArrays from './5-spread-operator.js';
-
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
