@@ -1,0 +1,9 @@
+exportdefaultfunctiongetFullResponseFromAPI(success){
+returnnewpromise((resolve,reject)=>{
+if(success=True){
+resolve({status:200,body:'Success'});
+}else{
+reject(newError('ThefakeAPIisnotworkingcurrently'));
+}
+});
+}
